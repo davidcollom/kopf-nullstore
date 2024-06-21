@@ -1,1 +1,2 @@
-from .kopf.nullstore import NullProgressStore, NoAnnotationsDiffBaseStorage
+from .diff_base_storage import NoAnnotationsDiffBaseStorage
+from .progress_store import NullProgressStore

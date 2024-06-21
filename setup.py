@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='kopf-nullstore',
-    version='0.1.0',
+    version=open('VERSION').read(),
     packages=find_packages(),
     install_requires=[
         'kopf',
@@ -12,7 +12,7 @@ setup(
     description='A Null Store package for kopf.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/kopf_utils',  # Update with your actual repo URL
+    url='https://github.com/davidcollom/kopf-nullstore',  # Update with your actual repo URL
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
